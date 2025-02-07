@@ -20,15 +20,15 @@ export default function Navbar() {
           <div className="hidden md:flex space-x-8">
             <Link 
               href="/components" 
-              className="text-gray-700 hover:text-orange-500 transition-colors"
+              className="text-white hover:text-orange-500 ease-in-out transition-colors"
             >
               Components
             </Link>
             <Link 
               href="/contribute" 
-              className="flex items-center space-x-1 text-gray-700 hover:text-orange-500 transition-colors"
+              className="flex items-center space-x-1 text-white hover:text-orange-500 ease-in-out transition-colors"
             >
-              <GitFork className="h-4 w-4" />
+              <GitFork className="h-4 w-4 " />
               <span>Contribute</span>
             </Link>
           </div>
@@ -51,14 +51,14 @@ export default function Navbar() {
           <div className="md:hidden py-4 space-y-4">
             <Link 
               href="/components" 
-              className="block text-gray-700 hover:text-orange-500 transition-colors"
+              className="block text-white hover:text-orange-500 ease-in-out transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Components
             </Link>
             <Link 
               href="/contribute" 
-              className="flex items-center space-x-1 text-gray-700 hover:text-orange-500 transition-colors"
+              className="flex items-center space-x-1 text-white hover:text-orange-500 ease-in-out transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               <GitFork className="h-4 w-4" />

@@ -24,7 +24,7 @@ export default function ComponentsPage() {
       </div>
 
       {/* Components Section */}
-      <div className="flex flex-col md:flex-row">
+      <div className="min-h-[100vh] xl:mx-40 flex flex-col md:flex-row">
         {/* Mobile Sidebar Toggle */}
         <div className="md:hidden p-4">
           <Button 
@@ -53,7 +53,7 @@ export default function ComponentsPage() {
                   "w-full text-left px-4 py-2 rounded-lg transition-colors",
                   selectedComponent.id === component.id
                     ? "bg-orange-500 text-white"
-                    : "hover:bg-gray-100"
+                    : ""
                 )}
               >
                 {component.name}
